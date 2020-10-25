@@ -4,7 +4,7 @@ package model;
 //u nekom softweru za predikciju reči
 
 public class Prediction {
-	public String word;
-	public double probability;	
+	private String word;
+	private double probability;	
 	
 }
