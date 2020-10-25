@@ -7,6 +7,11 @@ public class Prediction {
 	private String word;
 	private double probability;	
 	
+	public Prediction(String w, double p){
+		word = w;
+		probability = p;
+	}
+	
 	public String getWord(){
 		return word;
 	}
