@@ -14,4 +14,8 @@ public class Prediction {
 	public void setWord(String w){
 		word = w;
 	}
+	
+	public String toString(){
+		return word + "(" + probability + ")";
+	}
 }
