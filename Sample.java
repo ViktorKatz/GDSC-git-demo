@@ -5,7 +5,7 @@ package model;
 
 public class Prediction { //Ovo je super klasa
 	private String word;
-	private double probability;	
+	private double prob;	
 	
 	public Prediction(String w, double p){
 		word = w;
