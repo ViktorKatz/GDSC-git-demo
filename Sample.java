@@ -3,7 +3,7 @@ package model;
 //Pravimo clasu koja predstavlja reč
 //u nekom softweru za predikciju reči
 
-public class Prediction {
+public class Prediction { //Ovo je super klasa
 	private String word;
 	private double probability;	
 	
